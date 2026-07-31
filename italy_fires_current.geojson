@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-07-31T10:55:29Z",
+    "generated_at": "2026-07-31T10:56:22Z",
     "window_days": 2,
     "excluded_count": 39
   },
