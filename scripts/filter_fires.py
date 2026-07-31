@@ -57,28 +57,30 @@ def load_recent_hotspots(history_path, days):
     return rows
 
 
-def build_current(history_path, mask_path, out_path, days):
+def build_current(history_path, mask_path, out_path, out_csv_path, days):
     mask_points = load_mask_points(mask_path)
     rows = load_recent_hotspots(history_path, days)
 
-    features = []
+    kept = []
     excluded_count = 0
     for row in rows:
         lat, lon = float(row["lat"]), float(row["lon"])
         if is_excluded(lat, lon, mask_points):
             excluded_count += 1
             continue
-        features.append({
-            "type": "Feature",
-            "properties": {
-                "source": row["source"],
-                "satellite": row["satellite"],
-                "acq_at": row["acq_at"],
-                "frp": row["frp"],
-                "confidence": row["confidence"],
-            },
-            "geometry": {"type": "Point", "coordinates": [lon, lat]},
-        })
+        kept.append(row)
+
+    features = [{
+        "type": "Feature",
+        "properties": {
+            "source": row["source"],
+            "satellite": row["satellite"],
+            "acq_at": row["acq_at"],
+            "frp": row["frp"],
+            "confidence": row["confidence"],
+        },
+        "geometry": {"type": "Point", "coordinates": [float(row["lon"]), float(row["lat"])]},
+    } for row in kept]
 
     out = {
         "type": "FeatureCollection",
@@ -91,7 +93,14 @@ def build_current(history_path, mask_path, out_path, days):
     }
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
-    print(f"italy_fires_current.geojson: {len(features)} hotspots kept, {excluded_count} excluded by mask")
+
+    with open(out_csv_path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["lat", "lon", "frp", "confidence", "satellite", "source", "acq_at"])
+        writer.writeheader()
+        for row in kept:
+            writer.writerow({k: row[k] for k in writer.fieldnames})
+
+    print(f"italy_fires_current: {len(features)} hotspots kept, {excluded_count} excluded by mask")
 
 
 def main():
@@ -100,9 +109,10 @@ def main():
     parser.add_argument("--history", default=os.path.join(base, "hotspot_history.csv"))
     parser.add_argument("--mask", default=os.path.join(base, "exclusion_mask.geojson"))
     parser.add_argument("--out", default=os.path.join(base, "italy_fires_current.geojson"))
+    parser.add_argument("--out-csv", default=os.path.join(base, "italy_fires_current.csv"))
     parser.add_argument("--days", type=int, default=2, help="How many days of recent hotspots to publish")
     args = parser.parse_args()
-    build_current(args.history, args.mask, args.out, args.days)
+    build_current(args.history, args.mask, args.out, args.out_csv, args.days)
 
 
 if __name__ == "__main__":
