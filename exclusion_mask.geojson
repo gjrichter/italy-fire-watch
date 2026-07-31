@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generated_at": "2026-07-31T08:46:47Z",
+    "seed_count": 12,
+    "auto_count": 0,
+    "params": {
+      "grid_deg": 0.01,
+      "min_days": 10,
+      "window_days": 60,
+      "auto_buffer_m": 750
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ILVA Taranto",
+        "kind": "steel_plant",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.212,
+          40.511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raffineria Priolo-Melilli (ISAB)",
+        "kind": "refinery",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.169,
+          37.146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raffineria Gela",
+        "kind": "refinery",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.27,
+          37.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raffineria Sarroch (Saras)",
+        "kind": "refinery",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.018,
+          39.082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raffineria Falconara Marittima",
+        "kind": "refinery",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.37,
+          43.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale Enel Federico II, Brindisi",
+        "kind": "power_plant",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.982,
+          40.622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale Torrevaldaliga Nord, Civitavecchia",
+        "kind": "power_plant",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.78,
+          42.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petrolchimico Porto Marghera",
+        "kind": "petrochemical",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.24,
+          45.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ex Ilva/Lucchini Piombino",
+        "kind": "steel_plant",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.53,
+          42.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raffineria Livorno (Eni)",
+        "kind": "refinery",
+        "buffer_m": 1500,
+        "verified": false,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.35,
+          43.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acciaierie di Terni",
+        "kind": "steel_plant",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.669,
+          42.566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Termovalorizzatore A2A Brescia",
+        "kind": "waste_incinerator",
+        "buffer_m": 2000,
+        "verified": true,
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.222,
+          45.497
+        ]
+      }
+    }
+  ]
+}
