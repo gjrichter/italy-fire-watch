@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-07-31T10:21:42Z",
-    "seed_count": 12,
+    "generated_at": "2026-07-31T10:55:29Z",
+    "seed_count": 14,
     "auto_count": 0,
     "params": {
       "grid_deg": 0.01,
@@ -213,6 +213,42 @@
         "coordinates": [
           10.222,
           45.497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Etna (area craterica sommitale)",
+        "kind": "volcano",
+        "buffer_m": 4000,
+        "verified": true,
+        "note": "Degassamento/incandescenza quasi continua; buffer esteso a 4km per coprire anche episodi eruttivi (colate/fontane di lava osservate fino a ~2.7km dal centro il 2026-07-30). Un vero incendio boschivo sui versanti del Parco dell'Etna, ben oltre questo raggio, resta visibile.",
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.009,
+          37.757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stromboli (cratere sommitale)",
+        "kind": "volcano",
+        "buffer_m": 3000,
+        "verified": true,
+        "note": "Attivit\u00e0 stromboliana quasi permanente, rilevata 7 giorni su 7 nello storico osservato.",
+        "origin": "seed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.21,
+          38.794
         ]
       }
     }

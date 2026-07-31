@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "description": "Manually curated seed list of known industrial heat sources in Italy that trigger false-positive fire hotspot detections (VIIRS/MODIS). Coordinates marked verified:true were corrected against the centroid of real hotspot clusters observed in the last 7 days of live data (2026-07-31); verified:false entries are geographic estimates not yet confirmed against detections and may need correcting once data accumulates near them. buffer_m compensates for residual uncertainty.",
+    "description": "Manually curated seed list of known non-wildfire heat sources in Italy that trigger false-positive fire hotspot detections (VIIRS/MODIS) - industrial sites (steel plants, refineries, power plants, incinerators) and active volcanoes (crater degassing/incandescence). Coordinates marked verified:true were corrected against the centroid of real hotspot clusters observed in live data; verified:false entries are geographic estimates not yet confirmed against detections and may need correcting once data accumulates near them. buffer_m compensates for residual uncertainty.",
     "buffer_default_m": 1500
   },
   "features": [
@@ -16,6 +16,8 @@
     { "type": "Feature", "properties": { "name": "Ex Ilva/Lucchini Piombino", "kind": "steel_plant", "buffer_m": 1500, "verified": false }, "geometry": { "type": "Point", "coordinates": [10.530, 42.930] } },
     { "type": "Feature", "properties": { "name": "Raffineria Livorno (Eni)", "kind": "refinery", "buffer_m": 1500, "verified": false }, "geometry": { "type": "Point", "coordinates": [10.350, 43.550] } },
     { "type": "Feature", "properties": { "name": "Acciaierie di Terni", "kind": "steel_plant", "buffer_m": 2000, "verified": true }, "geometry": { "type": "Point", "coordinates": [12.669, 42.566] } },
-    { "type": "Feature", "properties": { "name": "Termovalorizzatore A2A Brescia", "kind": "waste_incinerator", "buffer_m": 2000, "verified": true }, "geometry": { "type": "Point", "coordinates": [10.222, 45.497] } }
+    { "type": "Feature", "properties": { "name": "Termovalorizzatore A2A Brescia", "kind": "waste_incinerator", "buffer_m": 2000, "verified": true }, "geometry": { "type": "Point", "coordinates": [10.222, 45.497] } },
+    { "type": "Feature", "properties": { "name": "Etna (area craterica sommitale)", "kind": "volcano", "buffer_m": 4000, "verified": true, "note": "Degassamento/incandescenza quasi continua; buffer esteso a 4km per coprire anche episodi eruttivi (colate/fontane di lava osservate fino a ~2.7km dal centro il 2026-07-30). Un vero incendio boschivo sui versanti del Parco dell'Etna, ben oltre questo raggio, resta visibile." }, "geometry": { "type": "Point", "coordinates": [15.009, 37.757] } },
+    { "type": "Feature", "properties": { "name": "Stromboli (cratere sommitale)", "kind": "volcano", "buffer_m": 3000, "verified": true, "note": "Attività stromboliana quasi permanente, rilevata 7 giorni su 7 nello storico osservato." }, "geometry": { "type": "Point", "coordinates": [15.210, 38.794] } }
   ]
 }
