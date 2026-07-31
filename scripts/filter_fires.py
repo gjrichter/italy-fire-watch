@@ -57,7 +57,7 @@ def load_recent_hotspots(history_path, days):
     return rows
 
 
-def build_current(history_path, mask_path, out_path, out_csv_path, days):
+def build_current(history_path, mask_path, out_path, out_csv_path, out_stats_path, days):
     mask_points = load_mask_points(mask_path)
     rows = load_recent_hotspots(history_path, days)
 
@@ -100,6 +100,16 @@ def build_current(history_path, mask_path, out_path, out_csv_path, days):
         for row in kept:
             writer.writerow({k: row[k] for k in writer.fieldnames})
 
+    # Small standalone stats file — pages showing header counts should fetch this
+    # instead of the full geojson/csv just to read two numbers.
+    with open(out_stats_path, "w") as f:
+        json.dump({
+            "generated_at": out["properties"]["generated_at"],
+            "window_days": days,
+            "kept": len(features),
+            "excluded_count": excluded_count,
+        }, f, indent=2)
+
     print(f"italy_fires_current: {len(features)} hotspots kept, {excluded_count} excluded by mask")
 
 
@@ -110,9 +120,10 @@ def main():
     parser.add_argument("--mask", default=os.path.join(base, "exclusion_mask.geojson"))
     parser.add_argument("--out", default=os.path.join(base, "italy_fires_current.geojson"))
     parser.add_argument("--out-csv", default=os.path.join(base, "italy_fires_current.csv"))
+    parser.add_argument("--out-stats", default=os.path.join(base, "italy_fires_stats.json"))
     parser.add_argument("--days", type=int, default=2, help="How many days of recent hotspots to publish")
     args = parser.parse_args()
-    build_current(args.history, args.mask, args.out, args.out_csv, args.days)
+    build_current(args.history, args.mask, args.out, args.out_csv, args.out_stats, args.days)
 
 
 if __name__ == "__main__":
