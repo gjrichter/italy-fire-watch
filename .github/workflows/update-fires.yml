@@ -21,8 +21,13 @@ jobs:
       - name: Rebuild exclusion mask
         run: python3 scripts/build_mask.py
 
-      - name: Rebuild filtered current-fires output
+      - name: Rebuild filtered current-fires output (2-day window)
         run: python3 scripts/filter_fires.py
+
+      - name: Rebuild filtered current-fires output (7-day window)
+        run: >
+          python3 scripts/filter_fires.py --days 7
+          --out italy_fires_7d.geojson --out-csv italy_fires_7d.csv --out-stats italy_fires_7d_stats.json
 
       - name: Commit and push if data changed
         run: |
