@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-09-30T12:51:24Z",
+    "generated_at": "2026-10-01T13:39:04Z",
     "seed_count": 14,
-    "auto_count": 121,
+    "auto_count": 117,
     "params": {
       "grid_deg": 0.01,
       "min_days": 10,
@@ -255,114 +255,19 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "auto-derived 45.460,10.460",
+        "name": "auto-derived 45.450,18.030",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 32,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
+        "days_detected": 17,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.46,
-          45.46
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.150,9.940",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 40,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94,
-          45.15
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.140,9.940",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 39,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.94,
-          45.14
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 43.540,16.440",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 44,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.44,
-          43.54
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 47.180,7.560",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 30,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5600000000000005,
-          47.18
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 47.170,7.570",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 15,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.57,
-          47.17
+          18.03,
+          45.45
         ]
       }
     },
@@ -373,8 +278,8 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 20,
-        "first_seen": "2026-08-02",
+        "days_detected": 19,
+        "first_seen": "2026-08-03",
         "last_seen": "2026-09-28"
       },
       "geometry": {
@@ -382,880 +287,6 @@
         "coordinates": [
           13.620000000000001,
           46.07
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.630,18.000",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 48,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0,
-          40.63
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.950,15.670",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 16,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.67,
-          40.95
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.520,17.210",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 37,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.21,
-          40.52
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.500,17.220",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 39,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.22,
-          40.5
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.310,15.900",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 19,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-26"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.9,
-          40.31
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 40.560,9.670",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 15,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-08-26"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.67,
-          40.56
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 38.800,15.210",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 44,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.21,
-          38.800000000000004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 38.790,15.210",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 49,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.21,
-          38.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 39.080,9.020",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 38,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.02,
-          39.08
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.760,15.020",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 14,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-08-21"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.02,
-          37.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.760,15.010",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 11,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-08-19"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.01,
-          37.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.750,15.030",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 34,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-26"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.030000000000001,
-          37.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.750,15.040",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 45,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.040000000000001,
-          37.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.760,15.030",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 12,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-08-19"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.030000000000001,
-          37.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.750,14.990",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 36,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-27"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.99,
-          37.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.750,15.000",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 35,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-25"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.0,
-          37.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.680,9.920",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 33,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-17"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.92,
-          36.68
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.880,6.960",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 33,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.96,
-          36.88
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.880,6.950",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 36,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.95,
-          36.88
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.870,6.980",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 59,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.98,
-          36.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.860,6.950",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 10,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-22"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.95,
-          36.86
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.870,6.950",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 12,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.95,
-          36.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.760,7.310",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 51,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.3100000000000005,
-          36.76
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.750,6.260",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 58,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.26,
-          36.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.740,6.250",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 49,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.25,
-          36.74
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.430,6.620",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 38,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.62,
-          36.43
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.090,6.810",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 11,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8100000000000005,
-          36.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 35.770,7.360",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 17,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-03"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.36,
-          35.77
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 35.870,6.020",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 35,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.0200000000000005,
-          35.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 35.870,6.030",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 43,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-28"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.03,
-          35.87
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 35.230,8.170",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 36,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.17,
-          35.230000000000004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 47.170,7.560",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 38,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5600000000000005,
-          47.17
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.780,8.680",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 11,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.68,
-          45.78
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 43.790,7.370",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 33,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.37,
-          43.79
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 42.570,12.680",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 17,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.68,
-          42.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 37.210,15.170",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 28,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.17,
-          37.21
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.590,10.320",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 29,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.32,
-          36.59
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.460,10.060",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 10,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-08"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.06,
-          36.46
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.880,6.940",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 38,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.94,
-          36.88
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.750,6.250",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 52,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.25,
-          36.75
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 36.090,6.800",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 18,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-30"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8,
-          36.09
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.150,9.950",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 19,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-28"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.950000000000001,
-          45.15
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 44.380,11.730",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 10,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-20"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.73,
-          44.38
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.430,11.000",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 20,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-27"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.0,
-          45.43
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.110,7.720",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 10,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-26"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.72,
-          45.11
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "auto-derived 45.450,18.030",
-        "kind": "auto_persistent",
-        "origin": "auto",
-        "buffer_m": 750,
-        "days_detected": 16,
-        "first_seen": "2026-08-03",
-        "last_seen": "2026-09-29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.03,
-          45.45
         ]
       }
     },
@@ -1281,13 +312,70 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 45.460,10.460",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 31,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.46,
+          45.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 45.150,9.940",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 39,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.94,
+          45.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 43.540,16.440",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 44,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.44,
+          43.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 43.660,11.840",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 12,
+        "days_detected": 13,
         "first_seen": "2026-08-03",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1319,6 +407,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 43.790,7.370",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 32,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.37,
+          43.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 43.790,7.380",
         "kind": "auto_persistent",
         "origin": "auto",
@@ -1332,6 +439,310 @@
         "coordinates": [
           7.38,
           43.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 40.630,18.000",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 48,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0,
+          40.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 40.950,15.670",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 16,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.67,
+          40.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 40.310,15.900",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 19,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9,
+          40.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 38.800,15.210",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 44,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.21,
+          38.800000000000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 38.790,15.210",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 49,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.21,
+          38.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.760,15.010",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 10,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.01,
+          37.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.760,15.020",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 13,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.02,
+          37.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.760,15.030",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 11,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-08-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.030000000000001,
+          37.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.750,15.030",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 33,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.030000000000001,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.750,15.040",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 45,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.040000000000001,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.750,15.000",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 34,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.680,9.920",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 32,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.92,
+          36.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.880,6.960",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 33,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.96,
+          36.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.880,6.950",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 36,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.95,
+          36.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.870,6.980",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 59,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.98,
+          36.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.870,6.950",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 12,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.95,
+          36.87
         ]
       }
     },
@@ -1357,6 +768,44 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 36.760,7.310",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 51,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3100000000000005,
+          36.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.750,6.260",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 58,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.26,
+          36.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 36.740,6.260",
         "kind": "auto_persistent",
         "origin": "auto",
@@ -1376,13 +825,108 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 36.750,6.250",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 52,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          36.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.430,6.620",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 38,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.62,
+          36.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.090,6.800",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 18,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8,
+          36.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 35.870,6.030",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 42,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03,
+          35.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 35.230,8.170",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 36,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.17,
+          35.230000000000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 46.740,15.570",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 17,
+        "days_detected": 18,
         "first_seen": "2026-08-03",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1414,38 +958,133 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "auto-derived 45.970,12.620",
+        "name": "auto-derived 39.080,9.020",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 13,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-12"
+        "days_detected": 37,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-29"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.620000000000001,
-          45.97
+          9.02,
+          39.08
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "auto-derived 45.440,8.790",
+        "name": "auto-derived 37.750,14.990",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 12,
-        "first_seen": "2026-08-02",
-        "last_seen": "2026-09-28"
+        "days_detected": 35,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-27"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.790000000000001,
-          45.44
+          14.99,
+          37.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 37.210,15.170",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 27,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.17,
+          37.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.740,6.250",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 49,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25,
+          36.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 35.870,6.020",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 34,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0200000000000005,
+          35.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 35.770,7.360",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 16,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.36,
+          35.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 47.170,7.560",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 37,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5600000000000005,
+          47.17
         ]
       }
     },
@@ -1456,9 +1095,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 30,
+        "days_detected": 31,
         "first_seen": "2026-08-03",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1475,15 +1114,34 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 27,
+        "days_detected": 28,
         "first_seen": "2026-08-03",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           10.450000000000001,
           45.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 45.140,9.940",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 39,
+        "first_seen": "2026-08-03",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.94,
+          45.14
         ]
       }
     },
@@ -1503,6 +1161,101 @@
         "coordinates": [
           15.200000000000001,
           38.800000000000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 45.780,8.680",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 10,
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.68,
+          45.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 45.440,8.790",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 11,
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-09-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.790000000000001,
+          45.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.590,10.320",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 29,
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.32,
+          36.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 40.500,17.220",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 39,
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.22,
+          40.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 36.880,6.940",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 38,
+        "first_seen": "2026-08-04",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.94,
+          36.88
         ]
       }
     },
@@ -1532,9 +1285,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 46,
+        "days_detected": 47,
         "first_seen": "2026-08-04",
-        "last_seen": "2026-09-28"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1623,6 +1376,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 40.560,9.670",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 14,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-08-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.67,
+          40.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 35.770,9.890",
         "kind": "auto_persistent",
         "origin": "auto",
@@ -1642,6 +1414,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 45.970,12.620",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 12,
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-09-12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.620000000000001,
+          45.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 45.140,9.950",
         "kind": "auto_persistent",
         "origin": "auto",
@@ -1655,6 +1446,82 @@
         "coordinates": [
           9.950000000000001,
           45.14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 45.150,9.950",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 18,
+        "first_seen": "2026-08-05",
+        "last_seen": "2026-09-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.950000000000001,
+          45.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 40.520,17.210",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 37,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.21,
+          40.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 47.180,7.560",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 29,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5600000000000005,
+          47.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 47.170,7.570",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 14,
+        "first_seen": "2026-08-06",
+        "last_seen": "2026-09-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.57,
+          47.17
         ]
       }
     },
@@ -1699,13 +1566,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 36.090,6.810",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 11,
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8100000000000005,
+          36.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 37.750,15.060",
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 35,
+        "days_detected": 36,
         "first_seen": "2026-08-07",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1798,15 +1684,34 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 28,
+        "days_detected": 29,
         "first_seen": "2026-08-08",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           9.89,
           35.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auto-derived 42.570,12.680",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 17,
+        "first_seen": "2026-08-07",
+        "last_seen": "2026-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.68,
+          42.57
         ]
       }
     },
@@ -1836,9 +1741,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 25,
+        "days_detected": 26,
         "first_seen": "2026-08-08",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -1931,9 +1836,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 36,
+        "days_detected": 37,
         "first_seen": "2026-08-09",
-        "last_seen": "2026-09-27"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2045,9 +1950,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 39,
+        "days_detected": 40,
         "first_seen": "2026-08-10",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2159,9 +2064,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 22,
+        "days_detected": 23,
         "first_seen": "2026-08-12",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2269,6 +2174,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "auto-derived 45.430,11.000",
+        "kind": "auto_persistent",
+        "origin": "auto",
+        "buffer_m": 750,
+        "days_detected": 19,
+        "first_seen": "2026-08-18",
+        "last_seen": "2026-09-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0,
+          45.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "auto-derived 47.070,8.270",
         "kind": "auto_persistent",
         "origin": "auto",
@@ -2311,9 +2235,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 32,
+        "days_detected": 33,
         "first_seen": "2026-08-20",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2330,9 +2254,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 14,
+        "days_detected": 15,
         "first_seen": "2026-08-20",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2387,9 +2311,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 20,
+        "days_detected": 21,
         "first_seen": "2026-08-27",
-        "last_seen": "2026-09-21"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2406,9 +2330,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 21,
+        "days_detected": 22,
         "first_seen": "2026-08-29",
-        "last_seen": "2026-09-30"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2463,9 +2387,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 18,
+        "days_detected": 19,
         "first_seen": "2026-09-01",
-        "last_seen": "2026-09-29"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
@@ -2520,9 +2444,9 @@
         "kind": "auto_persistent",
         "origin": "auto",
         "buffer_m": 750,
-        "days_detected": 13,
+        "days_detected": 14,
         "first_seen": "2026-09-04",
-        "last_seen": "2026-09-28"
+        "last_seen": "2026-10-01"
       },
       "geometry": {
         "type": "Point",
