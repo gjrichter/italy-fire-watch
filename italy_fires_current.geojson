@@ -1,691 +1,11 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "generated_at": "2026-10-31T12:53:22Z",
+    "generated_at": "2026-11-01T13:39:54Z",
     "window_days": 2,
-    "excluded_count": 97
+    "excluded_count": 92
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "2.82",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.00456,
-          37.18544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "4.06",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.53074,
-          37.54409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "10.28",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.53021,
-          37.55075
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "16.83",
-        "confidence": "high"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.52611,
-          37.54745
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "4.33",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.93256,
-          37.64231
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "7.38",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.77641,
-          37.74094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "8.32",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.77461,
-          37.74181
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:14:00",
-        "frp": "8.62",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.52239,
-          37.88877
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:16:00",
-        "frp": "2.78",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.10176,
-          40.16711
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-29 13:16:00",
-        "frp": "7.34",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06537,
-          42.19758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 00:11:00",
-        "frp": "0.79",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.49034,
-          45.51779
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 00:13:00",
-        "frp": "0.82",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.21563,
-          40.24673
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:56:00",
-        "frp": "1.21",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.86843,
-          35.55004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:52:00",
-        "frp": "6.97",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.32796,
-          45.45721
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:52:00",
-        "frp": "6.97",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.33472,
-          45.45573
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:54:00",
-        "frp": "1.62",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06537,
-          42.20047
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:54:00",
-        "frp": "1.62",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06571,
-          42.19622
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:54:00",
-        "frp": "3.15",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06505,
-          42.19696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 01:54:00",
-        "frp": "0.44",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.10273,
-          41.83786
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "14.29",
-        "confidence": "72"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.52902,
-          37.54164
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "7.81",
-        "confidence": "45"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.89304,
-          37.59431
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "10.15",
-        "confidence": "62"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.92019,
-          37.62222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "11.03",
-        "confidence": "64"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.91157,
-          37.62483
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "9.64",
-        "confidence": "59"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.67685,
-          37.66864
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "14.88",
-        "confidence": "66"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.65891,
-          37.66508
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:01:00",
-        "frp": "16.13",
-        "confidence": "69"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.67131,
-          37.66957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:03:00",
-        "frp": "5.14",
-        "confidence": "44"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.26427,
-          43.21719
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:03:00",
-        "frp": "11.16",
-        "confidence": "56"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.58806,
-          42.42698
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:03:00",
-        "frp": "35.46",
-        "confidence": "79"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.56897,
-          42.42305
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:03:00",
-        "frp": "8.4",
-        "confidence": "40"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.62088,
-          43.65702
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "A",
-        "acq_at": "2026-10-29 14:05:00",
-        "frp": "10.87",
-        "confidence": "40"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.81733,
-          45.68423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "T",
-        "acq_at": "2026-10-30 08:22:00",
-        "frp": "22.89",
-        "confidence": "61"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06994,
-          42.19912
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "T",
-        "acq_at": "2026-10-30 08:24:00",
-        "frp": "5.5",
-        "confidence": "48"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.34329,
-          40.46228
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "T",
-        "acq_at": "2026-10-30 08:24:00",
-        "frp": "5.91",
-        "confidence": "46"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.53958,
-          37.86542
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "modis",
-        "satellite": "T",
-        "acq_at": "2026-10-30 08:24:00",
-        "frp": "4.01",
-        "confidence": "61"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.11277,
-          35.9362
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-30 11:17:00",
-        "frp": "5.61",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.55267,
-          37.85524
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-30 11:17:00",
-        "frp": "4",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.45057,
-          40.75053
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-30 12:55:00",
-        "frp": "2.85",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.79436,
-          37.91786
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-30 12:57:00",
-        "frp": "5.43",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.06869,
-          42.19725
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_snpp",
-        "satellite": "N",
-        "acq_at": "2026-10-30 12:57:00",
-        "frp": "5",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.12486,
-          44.91103
-        ]
-      }
-    },
     {
       "type": "Feature",
       "properties": {
@@ -700,295 +20,6 @@
         "coordinates": [
           17.053,
           39.23284
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:34:00",
-        "frp": "2.39",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.03852,
-          36.71997
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:34:00",
-        "frp": "4.07",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.67494,
-          38.08344
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "8.56",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.67093,
-          37.83414
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "8.47",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.64612,
-          37.85703
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "3.61",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.55439,
-          37.85484
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "1.97",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.22873,
-          38.64319
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "8.29",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.65758,
-          37.992
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:36:00",
-        "frp": "4.44",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.65638,
-          37.99234
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:38:00",
-        "frp": "2.54",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.04226,
-          44.57273
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 11:38:00",
-        "frp": "1.79",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.46197,
-          45.62117
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:18:00",
-        "frp": "5.34",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.12853,
-          44.90821
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "5.8",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.28091,
-          40.06116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "5.8",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.27678,
-          40.06098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "12.44",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.0765,
-          42.19334
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "12.44",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.07164,
-          42.19316
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "12.44",
-        "confidence": "high"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.07167,
-          42.19889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "viirs_noaa20",
-        "satellite": "N20",
-        "acq_at": "2026-10-30 13:16:00",
-        "frp": "14.24",
-        "confidence": "nominal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.07722,
-          42.19912
         ]
       }
     },
@@ -1108,6 +139,584 @@
         "coordinates": [
           6.01498,
           43.27946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 11:00:00",
+        "frp": "11.56",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9699,
+          45.39973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:36:00",
+        "frp": "4.09",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.68817,
+          35.37562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:36:00",
+        "frp": "2.21",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.50248,
+          37.45466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "3.07",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.66652,
+          37.67818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "4.49",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1927,
+          37.80888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "4.49",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1872,
+          37.80824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "9.43",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.19029,
+          37.80893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "2.63",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.16901,
+          39.2863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "6.16",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.10398,
+          39.33049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_snpp",
+        "satellite": "N",
+        "acq_at": "2026-10-31 12:38:00",
+        "frp": "4.82",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1797,
+          39.71423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:17:00",
+        "frp": "5.22",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.05196,
+          42.71655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "3.17",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7101,
+          37.21692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "3.33",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.55818,
+          37.53755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "2.55",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.62846,
+          37.82713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "2.53",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.62646,
+          37.82739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "2.81",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.80466,
+          37.94563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "2.66",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.89288,
+          37.94531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 11:15:00",
+        "frp": "3.14",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.89434,
+          37.94237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:55:00",
+        "frp": "4.77",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.18805,
+          37.80904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:57:00",
+        "frp": "5.85",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66271,
+          39.99567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:57:00",
+        "frp": "1.14",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.64844,
+          45.23372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:57:00",
+        "frp": "1.82",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57071,
+          45.32536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:57:00",
+        "frp": "1.56",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.08014,
+          45.55326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-10-31 12:57:00",
+        "frp": "8.17",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52607,
+          45.60406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:13:00",
+        "frp": "0.94",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.82618,
+          44.86714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "0.41",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6702,
+          40.55873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "2.3",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.06741,
+          38.4259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "1.61",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0617,
+          38.42709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "3.93",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.06596,
+          38.42634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "0.81",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0647,
+          38.42264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "viirs_noaa20",
+        "satellite": "N20",
+        "acq_at": "2026-11-01 01:15:00",
+        "frp": "0.68",
+        "confidence": "nominal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.28659,
+          36.79989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "modis",
+        "satellite": "A",
+        "acq_at": "2026-10-31 13:42:00",
+        "frp": "42.07",
+        "confidence": "71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.54918,
+          45.64261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "modis",
+        "satellite": "A",
+        "acq_at": "2026-10-31 13:42:00",
+        "frp": "26.61",
+        "confidence": "59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.52023,
+          45.63557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "modis",
+        "satellite": "T",
+        "acq_at": "2026-11-01 08:05:00",
+        "frp": "4.46",
+        "confidence": "43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.00543,
+          37.43344
         ]
       }
     }
