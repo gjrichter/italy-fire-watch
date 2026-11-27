@@ -1,4 +1,5 @@
 lat,lon,frp,confidence,satellite,source,acq_at
-38.20521,15.26299,2.03,nominal,N20,viirs_noaa20,2026-11-25 02:06:00
 40.55894,9.67149,1.22,nominal,N20,viirs_noaa20,2026-11-26 01:47:00
 36.21245,6.14936,0.51,nominal,N20,viirs_noaa20,2026-11-26 01:49:00
+39.21413,8.40616,0.59,nominal,N20,viirs_noaa20,2026-11-27 01:30:00
+36.62463,6.15735,19.55,nominal,N20,viirs_noaa20,2026-11-27 12:50:00
